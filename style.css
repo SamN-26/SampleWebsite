@@ -7,8 +7,12 @@
     src: url(Font/UniformBold.otf)
 }
 @font-face{
-    font-family: Rock;
+    font-family: RocksDeath;
     src: url(Font/RocksDeath.ttf)
+}
+@font-face {
+    font-family:HardRock;
+    src: url(Font/HARD_ROCK.ttf);
 }
 .Universal{
     padding-left: 20px;
@@ -42,7 +46,7 @@ header{
     font-size: 50px;
 }
 .Rock{
-    font-family: Ro;
+    font-family:HardRock;
     background-color:#CF0A0A;
     width: 100%;
     border:solid;
