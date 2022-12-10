@@ -6,21 +6,26 @@
     font-family: Uniform;
     src: url(Font/UniformBold.otf)
 }
+@font-face{
+    font-family: Rock;
+    src: url(Font/RocksDeath.ttf)
+}
 .Universal{
     padding-left: 20px;
     padding-right: 20px;
 }
 .background
 {
-    background-color: bisque;
-    background-size: auto;
+    background-image:url(/Images/Background.jpg);
+    background-size: contain;
+    background-repeat:repeat-y;
 }
 header{
     font: size 10px;
     font-family: CAMPUS;
     color:#ffffff;
     height: 1.5cm;
-    width:100vw;
+    width:100%;
     background-size: cover;
     background-color:#000000;
     text-align: center;
@@ -37,20 +42,28 @@ header{
     font-size: 50px;
 }
 .Rock{
-    background-color:#EEEEEE;
-    width: 100vw;
+    font-family: Ro;
+    background-color:#CF0A0A;
+    width: 100%;
     border:solid;
+    color: #EEEEEE;
     border-width: 5px;
-    border-color:#CF0A0A;
+    border-color:#EEEEEE;
     padding-left: 20px;
     background-size: cover;
 }
-.Image{
-    height:20%;
-    float: right;
-    border: #CF0A0A solid 5px;
+.card-img-top {
+    border: #CF0A0A solid 3px;
     border-radius: 2vh;
-    width: 20%;
+    align-items: center;
+}
+.btn-primary{
+    color: #EEEEEE;
+    background-color: #CF0A0A;
+    border-color: #CF0A0A;
+}
+.card-title{
+    color: #CF0A0A;
 }
 .Container1{
     padding-right: 25%;
@@ -59,12 +72,11 @@ header{
     padding-left:25%;
 
 }
-
 .paragraph{
     color: #EEEEEE;
 }
 .RockSubHeading{
-    font-size:3vh;
+    font-size:3.5vh;
     font-weight: bold;
     text-align: left;
     color: #CF0A0A;
@@ -72,6 +84,8 @@ header{
 }
 .card{
     background-color: #00000000;
+    border:hidden;
+    padding: 10px;
 }
 .Box1{
     background-image: url("/Images/Queen_band2.jpg");
@@ -94,7 +108,7 @@ header{
 }
 ol[id="RockList"]>li{
     color: #5F9DF7;
-    font-size:1.5vh;
+    font-size:2vh;
     text-decoration-line: underline;
 }
 .Box2{
